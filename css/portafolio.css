@@ -255,3 +255,25 @@ body {
 .ocultar {
   display: none;
 }
+
+
+.btnVideo {
+  background: none;
+  border: none;
+  border-radius: 22px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btnVideo:hover {
+  background: rgb(255, 255, 255);
+  padding: 8px;
+  color: black;
+}
+
+.btnVideo:active {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
