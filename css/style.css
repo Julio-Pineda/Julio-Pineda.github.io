@@ -7,13 +7,14 @@ body {
     background: -webkit-radial-gradient(circle, rgba(1,46,2,1) 0%, rgba(83,33,136,1) 100%);
     background: radial-gradient(circle, rgba(1,46,2,1) 0%, rgba(83,33,136,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#012e02",endColorstr="#532188",GradientType=1);
+    height: 100vh;
 }
 
 
 .container {
-    padding: 60px 55px 90px 55px;
+    padding: 50px 55px 75px 55px;
     border-radius: 44px;
-    margin: 80px 320px;
+    margin: 10px 320px;
     background-color: white;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -29,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: 550px;
     position: relative;
 }
 
