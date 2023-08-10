@@ -82,7 +82,7 @@ document.getElementById('form')
 
 
   document.getElementById("btnDescargar").addEventListener("click", function() {
-  var fileUrl = "./assets/REPUBLICA%20DE%20COLOMBIA.pdf";
+  var fileUrl = "./assets/Julio.pdf";
 
   var fileName = "CV - JULIO CÉSAR PINEDA MORA - WEB DEVELOPER.pdf";
 
