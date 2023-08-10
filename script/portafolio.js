@@ -11,5 +11,11 @@ function mostrarIframe(videoURL) {
 
  
 
+  document.getElementById("closePopupBtn").addEventListener("click", function() {
+    var video = document.getElementById("video");
+    video.style.display = 'none';
+  });
+  
+
   
   
