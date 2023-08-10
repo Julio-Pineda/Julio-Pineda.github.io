@@ -11,10 +11,19 @@ function mostrarIframe(videoURL) {
 
  
 
-  document.getElementById("closePopupBtn").addEventListener("click", function() {
-    var video = document.getElementById("video");
-    video.style.display = 'none';
-  });
+  document.addEventListener("DOMContentLoaded", function() {
+    const closePopupBtn = document.getElementById("closePopupBtn");
+    const iframeContainer = document.getElementById('iframeContainer');
+    const video = document.getElementById("video");
+
+    closePopupBtn.addEventListener("click", function() {
+        // Remover el contenido del iframe y ocultarlo
+        iframeContainer.innerHTML = "";
+        video.style.display = 'none';
+    });
+});
+
+
   
 
   
