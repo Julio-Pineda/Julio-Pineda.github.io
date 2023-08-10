@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/portafolio.css" />
+  <link rel="shortcut icon" href="./assets/colombia.ico" type="image/x-icon" />
+  <title>Julio César Pineda Mora</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="face front">
+      <img src="./assets/store.avif" alt="Tienda" />
+      <h3>Tienda</h3>
+    </div>
+    <div class="face back">
+      <h3>Tienda</h3>
+      <p>
+        Tienda online de productos cósmeticos, contiene: modulo vitrina, carrito, ofertas y populares <br>
+        Lenguajes: HTML, CSS, Javascript, PHP y SQL.
+      </p>
+      <div class="link">
+        <button onclick="mostrarIframe('https://www.youtube.com/embed/ladwC6Lrs-M')">Detalles</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="face front">
+      <img src="./assets/sistemas-de-inventarios.png" alt="Sistema de inventario" />
+      <h3>Inventario</h3>
+    </div>
+    <div class="face back">
+      <h3>Inventario</h3>
+      <p>
+        Sistema con módulos de registro de usuarios, equipos y dispositivos asignados. Además, vincula licencias, marca eventos con notificación en el calendario, genera reportes, etc. <br>
+        Lenguajes: HTML, CSS, Javascript, PHP y SQL.
+      </p>
+      <div class="link">
+        <button onclick="mostrarIframe('https://www.youtube.com/embed/G2bSU_9zMLE')">Detalles</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="face front">
+      <img src="./assets/mensajes.jpg" alt="Mensajería" />
+      <h3>Mensajería</h3>
+    </div>
+    <div class="face back">
+      <h3>Mensajería</h3>
+      <p>
+        Permite programar mensajes mediante email y Whatsapp, facilitando la tarea de automatización. <br>
+        Lenguajes: HTML, CSS, Javascript, PHP y SQL.
+
+      </p>
+      <div class="link">
+        <a href="https://www.culturagenial.com/es/basilica-la-sagrada-familia/" target="_blank" rel="noopener noreferrer">Detalles</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="face front">
+      <img src="./assets/crm2.jpg" alt="CRM" />
+      <h3>CRM</h3>
+    </div>
+    <div class="face back">
+      <h3>CRM</h3>
+      <p>
+        Sistema con diversos módulos, como: registro clientes, proveedores, historial de llamada, recolección de datos mediante Facebook, Whatsapp e Instagram. <br>
+        Lenguajes: HTML, CSS, Javascript, PHP y SQL.
+      </p>
+      <div class="link">
+        <a href="https://www.machupicchu.gob.pe/" target="_blank" rel="noopener noreferrer">Detalles</a>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="overlay ocultar" id="video">
+    <div class="popup aladin">
+      <div>
+        <img src="" alt="">
+      </div>
+        <div id="iframeContainer">
+
+        </div>
+        <button id="closePopupBtn" class="close-btn">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="./script/portafolio.js"></script>
+</body>
+</html>
