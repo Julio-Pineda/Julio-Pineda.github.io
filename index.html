@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
+<html lang="es" class="no-js">
+  
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- SEO -->
+        <!-- SEO -->
     <meta name="generator" content="julio-pineda">
     <meta name="docsearch:language" content="en">
     <meta name="docsearch:version" content="1.0">
@@ -52,179 +53,882 @@
       gtag('config', 'G-47M44HNDTZ');
     </script>
 
-    <!-- STYLES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css"/>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/loader.css" />
-    <link rel="shortcut icon" href="./assets/colombia.ico" type="image/x-icon"/>
+    <title>Julio Pineda</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/modernizr.custom.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">emailjs.init("hOEJdsgQ_6e6DG5mR");</script>
-
-    <title>Julio Pineda | Web developer</title>
   </head>
+
   <body>
-    <div class="container">
-      <div class="borderContainer">
-        <img
-          class="profilePic"
-          src="./assets/1684085613083.jpg"
-          alt=""
-          srcset=""
-        />
-      </div>
-      <h1>Julio César Pineda Mora</h1>
-      <h2>Web developer junior</h2>
-      <div class="socialMediaLine">
-        <div
-          id="fastEmail"
-          class="divSocialMediaIndividual"
-          href=""
-          target="_blank"
-          rel=""
-        >
-          <img class="ico" src="./assets/rocket.png" alt="" srcset="" />
-          <span class="ocultar">Correo rápido</span>
-        </div>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg1.png);"></div>
+    <!-- /Animated Background -->
 
-        <div class="divSocialMediaIndividual">
-          <a
-            href="https://www.linkedin.com/in/julio-c%C3%A9sar-pineda-mora-61ba90199?original_referer="
-            target="_blank"
-            rel=""
-            ><img class="ico" src="./assets/linkedin.png" alt="" srcset=""
-          /></a>
-          <span class="ocultar">Linkedin</span>
-        </div>
-
-        <div class="divSocialMediaIndividual">
-          <a href="mailto:pjulio@unicauca.edu.co" target="_blank" rel=""
-            ><img class="ico" src="./assets/gmail.png" alt="" srcset=""
-          /></a>
-          <span>Gmail</span>
-        </div>
-
-        <div class="divSocialMediaIndividual">
-          <a href="./portafolio.html" rel=""
-            ><img class="ico" src="./assets/portafolio.png" alt="" srcset=""
-          /></a>
-          <span>Portafolio</span>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
       </div>
+    </div>
+    <!-- /Loading animation -->
 
-      <div class="abstract">
-        <p>
-          Desarrollador web apasionado por crear experiencias web atractivas e
-          intuitivas con JavaScript, HTML y CSS. Atención al detalle, asertivo y
-          adaptable a nuevas tecnologías. Excelente colaborador y solucionador
-          de problemas.
-        </p>
-      </div>
+    <div class="page">
+      <div class="page-content">
 
-      <div>
-        <button
-          id="btnDescargar"
-          class="button type1 vibrating-button"
-        ></button>
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/assets/profile.jpg" alt="Alex Smith">
+              </div>
+              <div class="header-titles">
+                <h2>Julio Pineda</h2>
+                <h4>Web developer</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Inicio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">Sobre mí</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Curriculum vitae</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portafolio</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contacto</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/julio-c%C3%A9sar-pineda-mora-61ba90199?original_referer=" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="mailto:juliocesarpinedamora2021@gmail.com" target="_blank"><i class="fab fa-google"></i></a></li>
+                <li><a href="https://github.com/Julio-Pineda" target="_blank"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="header-buttons">
+              <button id="btnDescargar" class="btn btn-primary pointeredElement">Descargar CV</button>
+            </div>
+
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="popayan-arrows-nav">
+            <div class="popayan-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="popayan-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Julio César Pineda Mora</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Full Stack developer</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">Frontend developer</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="page-title">
+                  <h2>Sobre <span>Mí</span></h2>
+                </div>
+
+                <div class="section-content">
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7 justifyText">
+                      <p>Desarrollador web apasionado por crear experiencias web atractivas e
+                        intuitivas con JavaScript, HTML, CSS, PHP y MySQL. Atención al detalle, asertivo y
+                        adaptable a nuevas tecnologías. Excelente colaborador y solucionador
+                        de problemas.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">Profesión</span>
+                            <span class="value">Desarrollador web</span>
+                          </li>
+                          <li>
+                            <span class="title">País</span>
+                            <span class="value">Colombia</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Ciudad</span>
+                            <span class="value">Popayán, Cauca</span>
+                          </li>
+
+                          <li>
+                            <span class="title">Email</span>
+                            <span class="value"><a href="mailto:juliocesarpinedamora2021@gmail.com">Julio Pineda</a></span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Áreas de <span>Proficiencia</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-store"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Tienda online</h4>
+                              <p>Conocidas también como Ecommerce, páginas donde se ofertan productos.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                            </div><div class="ci-text">
+                              <h4>Desarrollo web</h4>
+                              <p>Software hecho a la medida, bien sea, landing page, maquetación web o inventarios</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-pie-chart"></i>
+                            </div><div class="ci-text">
+                              <h4>Dashboards empresariales</h4>
+                              <p>CRM corporativos, con paneles administrador, e integraciones.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- End of Services -->
+
+                  <div class="white-space-50"></div>
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="page-title">
+                  <h2>Curriculum vitae - Hoja de vida</h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      <div class="block-title">
+                        <h3>Educación</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2023</h5>
+                            <span class="item-company">SENA</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Tecnólogía en análisis y desarrollo de sistemas de información</h4>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2019</h5>
+                            <span class="item-company">Universidad del Cauca</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Licenciatura en Lenguas Modernas</h4>
+                            <p></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>Experiencia</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2023 - Presente</h5>
+                            <span class="item-company"></span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Proyectos personales</h4>
+                            <p>Diseño, desarrollo y oferta mediante portafolio.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2023 - 2023</h5>
+                            <span class="item-company">Federación Nacional de Cafeteros de Colombia</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Tecnólogo en análisis y desarrollo de sistemas de información (Desarrollador Junior)</h4>
+                            <p class="justifyText">Diseño y desarrollo de un sistema de Gestión de inventario dinámico, creado para el control de activos de TI dentro de la oficina de sistemas. </p>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2021 - 2023</h5>
+                            <span class="item-company">Gobernación del Cauca - i3Net</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Gestor bilingüe</h4>
+                            <p class="justifyText">Solía documentar y redactar la sección académica de las escuelas beneficiarias, al mismo tiempo encargado de coordinar y facilitar relaciones entre los beneficiarios del proyecto, fomentando una colaboración exitosa.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2019 - 2022</h5>
+                            <span class="item-company">Liceo Bello Horizonte</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Docente</h4>
+                            <p class="justifyText">Profesor de inglés a cargo del nivel de educación secundaria, responsable del consejo académico de la escuela Liceo Bello Horizonte. Además, miembro del cuerpo docente encargado de impartir clases de ética y orientación personal.</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5 shadowedContainer paddingJoy borderedRadius">
+
+                      <!-- Tools Skills -->
+                      <div class="block-title">
+                        <h3>Herramientas <span>más usadas</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 1 -->
+                        <div class="skill clearfix">
+                          <h4>VsCode</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-1">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 1 -->
+                        
+                        <!-- Skill 2 -->
+                        <div class="skill clearfix">
+                          <h4>XAMPP</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-4">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 2 -->
+                        
+                        <!-- Skill 3 -->
+                        <div class="skill clearfix">
+                          <h4>Git - Github</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-4">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 3 -->
+                        
+                        <!-- Skill 4 -->
+                        <div class="skill clearfix">
+                          <h4>Suite office</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-1">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 4 -->
+
+                      </div>
+                      <!-- End of Design Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Coding Skills -->
+                      <div class="block-title">
+                        <h3>Tecnologías usadas en <span>Programación</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>JavaScript</h4>
+                          <div class="skill-value">85%</div>
+                        </div>
+                        <div class="skill-container skill-6">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 6 -->
+                        <div class="skill clearfix">
+                          <h4>PHP</h4>
+                          <div class="skill-value">65%</div>
+                        </div>
+                        <div class="skill-container skill-2">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 6 -->
+                        
+                        <!-- Skill 7 -->
+                        <div class="skill clearfix">
+                          <h4>HTML/CSS</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-1">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 7 -->
+                        
+                        <!-- Skill 8 -->
+                        <div class="skill clearfix">
+                          <h4>MySQL</h4>
+                          <div class="skill-value">65%</div>
+                        </div>
+                        <div class="skill-container skill-2">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 8 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>React.js</h4>
+                          <div class="skill-value">50%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+                      </div>
+                      <!-- End of Coding Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>Habilidades <span>blandas</span></h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Comunicación efectiva y asertiva </li>
+                        <li>Resolución de problemas</li>
+                        <li>Atención al detalle</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Recursividad</li>
+                        <li>Aprendizaje continuo</li>
+                        <li>Inglés</li>
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Certificates -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Certificados</h3>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <!-- Certificate 1 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Javascript práctico</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/3271-javascript-practico/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Agosto 2023</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 1 -->
+
+                    <!-- Certificate 2 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Git - Github</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/1557-git-github/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Agosto 2023</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 2 -->
+
+
+                    <!-- Certificate 3 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Prompt Engineering para ChatGPT</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/7296-chatgpt/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Agosto 2023</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 3 -->
+
+                    
+                    <!-- Certificate 4 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Javascript básico</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/1814-basico-javascript/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Julio 2022</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 4 -->
+
+                    
+                    <!-- Certificate 5 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Frontend Developer práctico</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/2477-frontend-developer-practico/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Marzo 2022</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 5 -->
+
+
+                    <!-- Certificate 6 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Frontend Developer</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/2467-frontend-developer/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Febrero 2022</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 6 -->
+
+
+                    <!-- Certificate 7 -->
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix shadowedContainer paddingJoy borderedRadius">
+                        <div class="certi-logo">
+                          <img class="borderedRadius" src="img/logo/Platzi.jpg" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Oratoria y hablar en público</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span><a href="https://platzi.com/p/pjulio/curso/1285-hablar-en-publico/diploma/detalle/" target="_blank">Enlace credenciales</a></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Enero 2022</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 7 -->
+
+
+                  </div>
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="page-title">
+                  <h2>Portafolio <span>de servicios</span></h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">Todo</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_inventory">Inventario</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_landing">Landing page</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_dashboard">Dashboards</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+                          
+                          <figure class="item standard" data-groups='["category_all", "category_dashboard"]'>
+                            <div class="portfolio-item-img borderedRadius">
+                              <img src="img/assets/process.png" alt="Media Project 1" title="" />
+                              <a href="dashboard-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">En proceso...</h4>
+                            <span class="category">Dashboard</span>
+                          </figure>
+
+                          
+                          <figure class="item standard" data-groups='["category_all", "category_inventory"]'>
+                            <div class="portfolio-item-img borderedRadius">
+                              <img src="img/assets/inventory-1.jpg" alt="Media Project 1" title="" />
+                              <a href="inventory-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Sistema de inventario</h4>
+                            <span class="category">Inventario</span>
+                          </figure>
+
+                          <figure class="item standard centeredForce" data-groups='["category_all", "category_landing"]'>
+                            <div class="portfolio-item-img borderedRadius">
+                              <img src="img/assets/landing-1.png" alt="Media Project 1" title="" />
+                              <a href="landing-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Página tipo CV</h4>
+                            <span class="category">Landing page</span>
+                          </figure>
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="page-title">
+                  <h2>Contacto</h2>
+                </div>
+
+                <div class="section-content">
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map"></i>
+                        <h4>Colombia</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-map-marker"></i>
+                        <h4>Popayán, Cauca</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-envelope"></i>
+                        <h4><a href="mailto:juliocesarpinedamora2021@gmail.com">Julio Pineda</a></h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Disponibilidad de trabajo</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+
+                    </div>
+                    <!-- End of Contact Info -->
+
+                    <!-- Contact Form -->
+                    <div class="col-xs-12 col-sm-8">
+                      <div id="map" class="map">
+                          <div class="popayan-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4605.467304648056!2d-76.60843527846923!3d2.4406371244615426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30030ff9207c27%3A0xf76217f9f8464ebe!2sParque%20Caldas!5e0!3m2!1ses!2sco!4v1693412476971!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                      </div>
+                      <div class="block-title">
+                        <h3>Correo <span>rápido</span></h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="from_name" type="text" name="from_name" class="form-control" placeholder="" required="required" data-error="Nombre obligatorio." autocomplete="off">
+                                <label>Nombre</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="email_id" type="email" name="email_id" class="form-control" placeholder="" required="required" data-error="Correo válido obligatorio." autocomplete="off">
+                                <label>Email</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="phone" type="text" name="phone" class="form-control" placeholder="" autocomplete="off">
+                                <label>Número telefónico</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Deposite su mensaje, por favor"></textarea>
+                                <label>Mensaje</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+      
+                          <input type="submit" class="button btn-send" value="Enviar">
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End of Contact Form -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
       </div>
     </div>
 
-    <div class="overlay ocultar" id="overlay">
-      <div class="popup aladin">
-        <div class="img-user">
-          <img src="./assets/rocket.png" alt="" srcset="" />
-        </div>
-        <h1>Correo rápido</h1>
-        <p>* Campos obligatorios</p>
-        <form id="form" class="formularioPopup">
-          <div class="field">
-            <label for="from_name"></label>
-            <input
-              type="text"
-              name="from_name"
-              id="from_name"
-              placeholder="Registre su nombre *"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="field">
-            <label for="phone"></label>
-            <input
-              type="text"
-              name="phone"
-              id="phone"
-              placeholder="Registre su número celular"
-              autocomplete="off"
-            />
-          </div>
-          <div class="field">
-            <label for="email_id"></label>
-            <input
-              type="text"
-              name="email_id"
-              id="email_id"
-              placeholder="Registre su correo *"
-              autocomplete="off"
-              required
-            />
-          </div>
-          <div class="field">
-            <label for="message"></label>
-            <textarea
-              name="message"
-              id="message"
-              cols="50"
-              rows="15"
-              placeholder="Deposite su mensaje *"
-            ></textarea>
-          </div>
+    <script data-cfasync="false" src="../../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
 
-          <input
-            type="submit"
-            id="button"
-            class="btnEnviar"
-            value="Enviar correo"
-          />
-        </form>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
 
-        <button id="closePopupBtn" class="close-btn">Cerrar</button>
-      </div>
-    </div>
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <div id="overlayLoader" class="overlayLoader ocultar">
-      <section class="loader">
-        <div class="slider" style="--i: 0"></div>
-        <div class="slider" style="--i: 1"></div>
-        <div class="slider" style="--i: 2"></div>
-        <div class="slider" style="--i: 3"></div>
-        <div class="slider" style="--i: 4"></div>
-      </section>
-    </div>
-
-<!--     <div class="context">
-      <h1>Pure Css Animated Background</h1>
-  </div>
-
-
-<div class="area" >
-          <ul class="circles">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-          </ul>
-  </div > -->
-
-    <script src="./script/script.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
-  </body>
+</body>
 </html>
