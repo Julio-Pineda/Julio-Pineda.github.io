@@ -28,6 +28,7 @@
  }
 
 
+
 /********************** ALERTAS ***********************/
 body > div.swal2-container.swal2-center.swal2-backdrop-show > div, body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-confirm.swal2-styled, body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-cancel.btn.btn-success.swal2-styled.swal2-default-outline {
     border-radius: 22px;

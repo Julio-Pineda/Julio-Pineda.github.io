@@ -1307,7 +1307,7 @@ input[type="text"],
     opacity: 0;
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-color: #ffffff00;
     color: #5e2fd6;
     text-align: center;
     line-height: 30px;
@@ -1326,7 +1326,7 @@ input[type="text"],
 .portfolio-grid figure .category {
     display: inline-block;
     padding: 2px 7px;
-    background-color: #fff;
+    background-color: #ffffff00;
     color: #222;
     font-size: 11px;
     line-height: 1.2em;
